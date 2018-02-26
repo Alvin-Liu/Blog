@@ -4,13 +4,19 @@
 
 Alvin-Liu的个人博客
 
-2017年的难产现象希望能有点改变吧，全新的方式，全新的开始
+2017年的难产现象希望能有点改变吧，全新的方式，全新的开始, 2018, 加油！！！
 
-培养写作、记笔记的习惯还是很重要的
+ES6篇：
 
-2018，给自己定个小目标
+[ES6时代，你真的会克隆对象吗](https://github.com/Alvin-Liu/Blog/issues/8 "ES6时代，你真的会克隆对象吗")
 
-* 每个月3篇以上有点质量的技术文章
-* 有两个star超过50的小项目
-* 工作、生活更精彩一点
+[ES6时代，你真的会克隆对象吗（二）](https://github.com/Alvin-Liu/Blog/issues/9 "ES6时代，你真的会克隆对象吗（二）")
+
+[ES6时代，面向对象编程：封装篇](https://github.com/Alvin-Liu/Blog/issues/10 "ES6时代，面向对象编程：封装篇")
+
+杂文：
+
+[JavaScript中相似方法的比较](https://github.com/Alvin-Liu/Blog/issues/7 "JavaScript中相似方法的比较")
+
+[为什么 parseInt(0.0000008) === 8？](https://github.com/Alvin-Liu/Blog/issues/6 "为什么 parseInt(0.0000008) === 8？")
 

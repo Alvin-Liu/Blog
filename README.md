@@ -4,6 +4,10 @@ Alvin-Liu的个人博客所有内容: [https://github.com/Alvin-Liu/Blog/issues]
 
 2017年的难产现象希望能有点改变吧，全新的方式，全新的开始, 2018, 加油！！！
 
+vue:
+
+- [你应该要知道的Vue.js](https://github.com/Alvin-Liu/Blog/issues/13)
+
 ES6篇：
 
 - [ES6时代，你真的会克隆对象吗](https://github.com/Alvin-Liu/Blog/issues/8 "ES6时代，你真的会克隆对象吗")
@@ -20,3 +24,5 @@ ES6篇：
 - [JavaScript易混淆的知识点整理](https://github.com/Alvin-Liu/Blog/issues/7 "JavaScript中相似方法的比较")
 - [为什么 parseInt(0.0000008) === 8？](https://github.com/Alvin-Liu/Blog/issues/6 "为什么 parseInt(0.0000008) === 8？")
 
+
+所有文章为原创，部分内容有参考《高程》、《权威指南》，如有雷同，还请告诉更正，转载请注明出处

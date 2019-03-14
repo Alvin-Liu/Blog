@@ -1,10 +1,16 @@
 # Blog
 
-Alvin-Liu的个人博客所有内容: [https://github.com/Alvin-Liu/Blog/issues](https://github.com/Alvin-Liu/Blog/issues)
+Alvin-Liu的博客
 
-2017年的难产现象希望能有点改变吧，全新的方式，全新的开始, 2018, 加油！！！
+技术相关：[https://github.com/Alvin-Liu/Blog/issues](https://github.com/Alvin-Liu/Blog/issues)
+
+非技术类：[https://www.yuque.com/gucheng-0jyby/bf1ch6](https://www.yuque.com/gucheng-0jyby/bf1ch6)
 
   ## 前端
+
+思考与总结：
+
+- [基于vue的通用表单解决方案的思考](https://github.com/Alvin-Liu/Blog/issues/18)
 
 vue深入学习：
 

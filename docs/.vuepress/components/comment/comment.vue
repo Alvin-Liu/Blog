@@ -35,3 +35,6 @@ export default {
   },
 }
 </script>
+<style>
+@import url("https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css");
+</style>

@@ -7,7 +7,7 @@ module.exports = {
   title: 'Alvin 的博客',
   description: 'Alvin 的博客，用于记录工作、生活、技术、思考、软技能等',
   dest: './dist',
-  // base: publicPath,
+  base: publicPath,  // TODO: 临时处理
   configureWebpack: {
     output: {
       publicPath: publicPath

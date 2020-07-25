@@ -1,0 +1,25 @@
+{
+  "name": "blog",
+  "version": "0.1.0",
+  "description": "Alvin-Liu的博客",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alvin-Liu/Blog.git"
+  },
+  "author": "Alvin-Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alvin-Liu/Blog/issues"
+  },
+  "homepage": "https://github.com/Alvin-Liu/Blog#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "vuepress": "^1.5.2"
+  }
+}

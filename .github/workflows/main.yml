@@ -15,7 +15,7 @@ jobs:
 
     - run: npm run docs:build
       env: 
-        PUBLIC_PATH: /blog/ 
+        PUBLIC_PATH: /Blog/ 
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.5.0

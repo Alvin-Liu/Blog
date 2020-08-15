@@ -1,5 +1,6 @@
 ---
 home: true
+heroImage: /logo.jpg
 actionText: 立即前往 →
 actionLink: /technology/
 features:

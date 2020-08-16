@@ -35,5 +35,13 @@ module.exports = {
         }
       ]
     }
-  }
+  },
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': process.env.GA
+      }
+    ]
+  ]
 }

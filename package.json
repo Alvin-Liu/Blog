@@ -21,5 +21,8 @@
   "devDependencies": {
     "dotenv": "^8.2.0",
     "vuepress": "^1.5.2"
+  },
+  "dependencies": {
+    "@vuepress/plugin-google-analytics": "^1.5.3"
   }
 }

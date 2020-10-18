@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Alvin-Liu/Blog#readme",
   "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.5.3",
     "dotenv": "^8.2.0",
     "vuepress": "^1.5.2"
   },

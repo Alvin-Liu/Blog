@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs": "vuepress dev docs",
-    "docs:build": "node ./builds/addComponents.js && vuepress build docs && node ./builds/delComponents.js"
+    "docs:build": "node ./builds/addComponents.js && NODE_ENV=production vuepress build docs && node ./builds/delComponents.js"
   },
   "repository": {
     "type": "git",

@@ -2,7 +2,7 @@
 home: true
 heroImage: /logo.jpg
 actionText: 立即前往 →
-actionLink: /technology/
+actionLink: /tmzdqn.html
 features:
 - title: 快乐工作
   details: 整理工作中大事、小事、开心事

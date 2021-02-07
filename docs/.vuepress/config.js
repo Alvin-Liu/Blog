@@ -17,24 +17,11 @@ module.exports = {
     smoothScroll: true,
     nav: [
       { text: '主页', link: '/' },
-      { text: '技术', link: '/technology/' },
       {
         text: 'github',
         link: 'https://github.com/Alvin-Liu'
       }
     ],
-    sidebar: {
-      '/technology/': [
-        {
-          title: 'CSS',
-          collapsable: true,
-          sidebarDepth: 1,
-          children: [
-            'css/test'
-          ]
-        }
-      ]
-    }
   },
   head: [
     // 添加百度统计

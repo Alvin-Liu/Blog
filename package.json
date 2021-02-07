@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs": "vuepress dev docs",
-    "docs:build": "node ./builds/addComponents.js && NODE_ENV=production vuepress build docs && node ./builds/delComponents.js"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,13 @@
   },
   "homepage": "https://github.com/Alvin-Liu/Blog#readme",
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.5.3",
     "dotenv": "^8.2.0",
-    "vuepress": "^1.5.2"
+    "vuepress-plugin-yuque": "^0.6.1",
+    "webpack-aliyun-oss": "^0.3.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@vuepress/plugin-google-analytics": "^1.8.0",
+    "gitalk": "^1.7.0",
+    "vuepress": "^1.8.0"
+  }
 }

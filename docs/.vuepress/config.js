@@ -50,6 +50,13 @@ module.exports = {
         s.parentNode.insertBefore(hm, s);
       })();
         `
+    ],
+    [
+      'meta',
+      {
+        name: 'referrer',
+        content: 'no-referrer'
+      }
     ]
   ],
   plugins: [
@@ -57,6 +64,13 @@ module.exports = {
       '@vuepress/google-analytics',
       {
         'ga': process.env.GA
+      }
+    ],
+    [
+      'vuepress-plugin-yuque', {
+        html: true,
+        repoUrl: process.env.YUQUE,
+        authToken: process.env.AUTH_TOKEN
       }
     ]
   ]

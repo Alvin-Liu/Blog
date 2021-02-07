@@ -1,0 +1,30 @@
+language: node_js
+node_js:
+  - lts/*
+install:
+  - npm install
+# 创建cache目录 ，防止每次编译打包都下载
+cache:
+  directories:
+    - node_modules
+    - tools
+    before_install:
+      - npm install
+      - git config --global push.default matching
+      - git config --global user.name "Alvin-Liu"
+      - git config --global user.email "alvin.llm@foxmail.com"
+      - cd ./tools
+      ## 下载阿里云 OSS Linux 客户端
+      - wget http://gosspublic.alicdn.com/ossutil/1.6.19/ossutil64  
+      - chmod 755 ossutil64
+      ## 配置 OSS 客户端, 包括 OSS 地址，accessKeyID accessKeySecret，使用方式可以参考 https://www.alibabacloud.com/help/zh/doc-detail/50452.htm
+      - ./ossutil64 config -e "${OSS_ENDPOINT}" -i "${OSS_AKI}" -k "${OSS_AKS}"
+      - cd ..
+script:
+  - npm run docs:build
+after_success:
+  - cd ./dist
+  ## 删除OSS上旧文件
+  - ../tools/ossutil64 rm oss://albwin-blog/ -r -f
+  ## 上传zip文件
+  - ../tools/ossutil64 cp -f ./* oss://albwin-blog/
